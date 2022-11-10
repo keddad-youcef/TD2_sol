@@ -1,0 +1,6 @@
+Title   GCC    CLANG 
+       IJK;     72.451        IJK;     72.863
+       IKJ;    108.794        IKJ;    127.007
+       IEX;     97.886        IEX;    137.035
+    UNROLL;    271.771     UNROLL;    205.007
+   UNROLL8;    287.914    UNROLL8;    212.814
