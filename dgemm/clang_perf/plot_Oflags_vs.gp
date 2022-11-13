@@ -1,5 +1,6 @@
 O1 = "#4671d5"; O2 = "#ff0000"; O3 = "#99ffff";
 set title "Flag Optimization Comparaison (Clang)"
+set ylabel 'Vitesse MIB/s'
 set auto x
 set style data histogram
 set style histogram cluster gap 1

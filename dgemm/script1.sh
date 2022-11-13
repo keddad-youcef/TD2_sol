@@ -31,6 +31,10 @@ sed -n '1p;6p' perf_${compiler}.dat > perf_UNROLL8_${compiler}.dat
 sed -i '1d' perf_UNROLL8_${compiler}.dat
 cut -d';' -f-1,11 perf_UNROLL8_${compiler}.dat >> plot_${compiler}.dat
 
+sed -n '1p;7p' perf_${compiler}.dat > perf_CBLAS_${compiler}.dat
+sed -i '1d' perf_CBLAS_${compiler}.dat
+cut -d';' -f-1,11 perf_CBLAS_${compiler}.dat >> plot_${compiler}.dat
+
 
 
 if [ "$compiler" = "gcc" ]; then

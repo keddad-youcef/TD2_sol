@@ -4,3 +4,4 @@ Title   O1    O2    O3
        IEX;    137.035        IEX;    236.595        IEX;    238.420
     UNROLL;    205.007     UNROLL;    143.781     UNROLL;    143.496
    UNROLL8;    212.814    UNROLL8;    153.719    UNROLL8;    156.499
+     CBLAS;    489.699      CBLAS;    438.914      CBLAS;    431.549

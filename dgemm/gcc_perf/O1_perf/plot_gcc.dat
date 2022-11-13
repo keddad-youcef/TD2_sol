@@ -3,3 +3,4 @@
        IEX;     97.886
     UNROLL;    271.771
    UNROLL8;    287.914
+     CBLAS;    490.853
